@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", "Arial", sans-serif;
+  color: white;
+  background-color: #FFFFFF;
+}
+
+header.page-header {
+	width:1000px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #000210;
+}
+
+.logo {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width:280px;
+	height: 90px;
+}
+
+.main-menu ul {
+  padding: 0;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-left:  290px;
+}
+
+.main-menu li {
+  display: inline-block;
+   margin: 15px;
+}
+
+.main-menu a {
+  color: white;
+  text-decoration:none;
+  font-size: 22px;
+}
+
+.kont {
+	
+	list-style-type: none;
+	display: inline-block;
+	text-decoration:none;
+	font-size: 20px;
+}
+
+main {
+	width:1000px;	
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+.list{
+	background-color: #000210;
+	width:900px;
+	height: 470px;
+	padding: 20px;
+	margin: 20px;
+	font-size: 45px;
+	
+}
+.list p{
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration:none;
+}
+.main-menu a:hover {
+	color: #ffd400;
+}
+
+.main-menu a:active {
+	color:#ff8c00;
+}
+
+.info1 { 
+	font-size: 20px;
+	width:270px;
+}
+
+
+p { margin: 0 auto;
+	font-size: 20px;}
+
+footer.page-footer {
+	width:1000px;
+	height: 120px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #000210;
+}
+
+.ma5slider{
+	width:600px;
+	height: 250px;
+	position: relative;
+	float: right;
+	margin-top: 25px;
+}
+

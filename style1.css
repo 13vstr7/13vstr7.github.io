@@ -1,0 +1,205 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Century Gothic", "Arial", sans-serif;
+  color: white;
+  background-color: #FFFFFF;
+}
+
+header.page-header {
+	width:1000px;
+	height: 90px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #000210;
+}
+
+.logo {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width:280px;
+	height: 90px;
+}
+
+.main-menu ul {
+  padding: 0;
+  list-style-type: none;
+  margin-right: 20px;
+  margin-left:  290px;
+}
+
+.main-menu li {
+  display: inline-block;
+   margin: 15px;
+}
+
+.main-menu a {
+  color: white;
+  text-decoration:none;
+  font-size: 22px;
+}
+
+.kont {
+	
+	list-style-type: none;
+	display: inline-block;
+	text-decoration:none;
+	font-size: 20px;
+}
+
+main {
+	width:1000px;	
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+.main-menu a:hover {
+	color: #ffd400;
+}
+
+.main-menu a:active {
+	color:#ff8c00;
+}
+
+p { margin: 0 auto;
+	font-size: 20px;}
+
+footer.page-footer {
+	width:1000px;
+	height: 120px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #000210;
+}
+.about-me{
+	 display:inline-block;
+	 width:460px;
+	margin: 20px 250px 20px 250px;
+	background-color: #000210;
+	height: 330px;
+	padding: 20px;
+	font-size: 25px;
+
+}
+.about-me a{
+	color: white;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration:none;
+	text-align: center;
+	display: block;
+	margin:5px auto;
+}
+
+.posts {
+    margin:15px;
+    padding:20px;
+	width:920px;
+	background-color: #000000;
+	display:inline-block;
+}
+
+/* css3 photo gallery styles */
+.gallery {
+    width:910px;
+    margin:0 auto;
+}
+.gallery a {
+    display:inline-block;
+    height:210px;
+    position:relative;
+    width:300px;
+}
+.gallery p {
+	font-size: 25px;
+}
+
+.gallery a img {
+    border:5px solid #fff;
+    cursor:pointer;
+    display:block;
+    height:100%;
+    left:0px;
+    position:absolute;
+    top:0px;
+    width:100%;
+    z-index:1;
+
+    -moz-user-select: none;
+
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -webkit-transition-duration:0.5s;
+    -moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -moz-transition-duration:0.5s;
+    transition-property:width, height, top, bottom, left, right, z-index, border;
+    transition-duration:0.5s;
+}
+.gallery a:focus img {
+    border:15px solid #fff;
+    cursor:default;
+    height:250%;
+    position:absolute;
+    width:250%;
+    z-index:25;
+
+    box-shadow:1px 1px 5px #888;
+    -moz-box-shadow:1px 1px 5px #888;
+    -webkit-box-shadow:1px 1px 5px #888;
+    -webkit-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -webkit-transition-duration:0.5s;
+    -moz-transition-property:width, height, top, bottom, left, right, z-index, border;
+    -moz-transition-duration:0.5s;
+    transition-property:width, height, top, bottom, left, right, z-index, border;
+    transition-duration:0.5s;
+}
+
+.gallery a:focus:nth-child(3n+1) img {
+left:150px;
+}
+.gallery a:focus:nth-child(3n+2) img {
+    left:-50px;
+}
+.gallery a:focus:nth-child(3n+3) img {
+    left:-250px;
+}
+.gallery a:focus:nth-child(-n+3) img {
+    top:140px;
+}
+.gallery a:focus:nth-child(n+7) img {
+    top:-150px;
+}
+.gallery a:focus:nth-child(n+10) img {
+    top:-295px;
+}
+
+.gallery .close {
+    background:transparent;
+    cursor:pointer;
+    display:none;
+    height:352px;
+    left:170px;
+    position:absolute;
+    top:160px;
+    width:500px;
+    z-index:30;
+}
+.gallery a:focus ~ .close {
+    display:block;
+}
+
+.knopka{
+	background-color: #ffd400;
+	font-size: 22px;
+	font-family: "Century Gothic", "Arial", sans-serif;
+	margin:5px;
+	border: 3px;
+	text-align: center;
+	
+}
+
